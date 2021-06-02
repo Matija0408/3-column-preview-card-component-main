@@ -132,10 +132,20 @@ p{
   .container{
     display: flex;
     flex-direction: column;
-    width: 307px;
+    width: 400px;
     height: 500px;
   }
   .btn1,.btn2,.btn3{
     position:unset;
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .container{
+    /* display: flex;
+    flex-direction: column; */
+    width: 97%;
+    /* height: 500px; */
   }
 }
